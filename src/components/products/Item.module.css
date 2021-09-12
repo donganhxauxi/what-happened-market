@@ -1,0 +1,44 @@
+.item {
+  width: 20%;
+  height: 70%;
+  position: relative;
+  background-color: violet;
+  padding: 0;
+  margin: 0;
+
+}
+.number {
+  float: left;
+  position: relative;
+  bottom: 30px;
+  background-color: yellow;
+  width: 50px;
+  height: 50px;
+  border: black 2px solid;
+  border-radius: 50%;
+}
+
+.footer {
+  background-color: #fff;
+  width: 60%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  align-items: center;
+  font-weight: bold;
+  padding: 5%;
+  text-align: start;
+  border: black 2px solid;
+}
+
+.footer h4 {
+  background-color: black;
+  color: white;
+  padding: 2%;
+  height: 30px;
+  border-radius: 50%;
+}

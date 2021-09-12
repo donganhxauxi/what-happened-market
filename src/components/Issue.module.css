@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.issue {
+  position: relative;
+  width: 100%;
+  height: 1143px;
+  background-image: url("../assets/issue.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  gap: 50%;
+  padding: 10% 20%;
+}
+
+.slider {
+    width: 100%;
+    height: 35%;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 4fr;
+}
+
+
+.whpn-issue {
+    background-color: tomato;
+    grid-column: 1;
+    grid-row: 1/ span 2;
+}
+
+.black-brand {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 20px 20px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.tomato-brand {
+    background-color: tomato;
+    border: 1px solid black;
+    color: white;
+    padding: 20px 20px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.black-product {
+    background-color: black;
+}
+
+.yellow-product {
+    background-color: yellow;
+}
+
+.tomato-product {
+    background-color: tomato;
+}
+
+.text {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: solid black;
+    margin: 20px auto;
+    background-color: white;
+    
+}

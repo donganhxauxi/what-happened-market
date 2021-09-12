@@ -1,0 +1,19 @@
+.item-element {
+  font-weight: bold;
+  width: 300x;
+  height: 250px;
+}
+
+.image {
+  margin: 0 auto;
+  /* width: 100%; */
+  height: 200px;
+  background-color: thistle;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: normal;
+}
